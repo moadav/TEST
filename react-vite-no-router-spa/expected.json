@@ -1,9 +1,0 @@
-{
-  "name": "react-vite-no-router-spa",
-  "packageManager": "npm",
-  "expectSetup": true,
-  "statusBefore": "Partial",
-  "expectStatusAfter": "Ready",
-  "maxHelmetProviders": 1,
-  "note": "Baseline is Partial/Eligible: a global <title> in index.html but no per-route mechanism. After wiring (HelmetProvider + one <Helmet>) it must build and flip to Ready. golden/ is the hand-verified target end-state (npm install + tsc + vite build all pass); the mutator must reproduce that shape."
-}
